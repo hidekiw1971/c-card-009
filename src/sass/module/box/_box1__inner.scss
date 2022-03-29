@@ -1,0 +1,9 @@
+@use "global" as *;
+.box1__inner {
+  display: inline-block;
+  text-align: left;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

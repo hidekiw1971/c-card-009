@@ -1,0 +1,7 @@
+@use "global" as *;
+.box1-1 {
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
